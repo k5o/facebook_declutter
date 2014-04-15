@@ -11,10 +11,8 @@ var Declutter = {
     r = document.getElementById('rightCol')
     p = document.getElementById('pagelet_composer')
 
-    if (l && r && p){
-      l.style.display = "none"
-      r.style.display = "none"
-      p.style.display = "none"
-    }
+    if (l){ l.style.display = "none" }
+    if (r) { r.style.display = "none" }
+    if (p) { p.style.display = "none" }
   }
 }

@@ -1,7 +1,7 @@
 function onFacebookHome(tab_url) {
   var flag = false;
 
-  if (tab_url === "https://www.facebook.com/"){ flag = true }
+  if (tab_url.match("https://www.facebook.com/")){ flag = true }
 
   return flag;
 }
